@@ -1,7 +1,5 @@
-# iris_classifier.py
-
 import matplotlib
-matplotlib.use('Agg')  # ✅ Use non-GUI backend to avoid Tkinter errors
+matplotlib.use('Agg')  
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -38,4 +36,4 @@ plt.ylabel("Actual")
 plt.title("🌸 Iris Classification - Confusion Matrix")
 plt.tight_layout()
 plt.savefig("iris_confusion_matrix.png")
-print("✅ Confusion matrix saved as 'iris_confusion_matrix.png'")
+print(" Confusion matrix saved as 'iris_confusion_matrix.png'")
